@@ -23,7 +23,8 @@ body {
   /* ID - unique value given to an element - find all the elements with the ID attribute of 'furry-img' */
 #furry-img {
     width: 1000px;
-    padding: 100px 365px 100px 365px;
+ 
+    padding: 100px 300px 100px 300px;
   }
 
   /* Make all the sections side-by-side instead of stacked */
