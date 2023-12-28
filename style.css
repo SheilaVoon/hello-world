@@ -1,0 +1,102 @@
+/* Note from Kassie: proof of life, do something big and obvious to check if your stylesheet is connected, then delete it or comment it out
+
+Make the entire page have a dark blue background:
+
+*/
+
+body {
+  background-color: rgb(12, 48, 85) 
+  ;
+} 
+
+/* ----------------------------------------------------- */
+
+/* Note from Kassie: I like to use this to give ALL of the elements a border, so I can see that all elements really are just boxes inside of boxes. Remove this before publishing your website. */
+
+/*
+* {
+    border: 1px solid black;
+  }
+  
+  /* ----------------------------------------------------- */
+
+  /* ID - unique value given to an element - find all the elements with the ID attribute of 'furry-img' */
+#furry-img {
+    width: 1000px;
+    padding: 100px 365px 100px 365px;
+  }
+
+  /* Make all the sections side-by-side instead of stacked */
+section {
+    display: inline-block;
+    width: 32.5%;
+    height: 300px;
+  }
+
+
+  /* Styling for header 1 */
+  h1{
+    color: rgb(109, 72, 4);
+    font-size: 500%;
+    font-family: cursive;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(109, 72, 4);
+    
+  }
+
+/* styling the link */
+a:link { color: #dcc032; } /* Blue */
+a:visited { color: #e1784e; } /* Gray */
+a:hover { color: #c82808; } /* Darker blue */
+a:active { color: #ab1697; } /* Even darker blue */
+
+
+/* styling the nav */
+nav{
+    font-size: 200%;
+    text-align: center;
+}
+
+/* styling the description paragraph */
+
+p{
+    color: #e1784e;
+    font-size: 200%;
+    text-align: center;
+}
+
+/* styling the sectioned unordered lists header 2 */
+
+section h2{
+    color:rgb(109, 72, 4);
+    font-size: 300%;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* styling the sectioned unordered lists text */
+
+section ul{
+    color:rgb(109, 72, 4);
+    font-size: 250%;
+    font-style: oblique;
+    text-align: left;
+    padding: 0% 35% 5% 35%;
+}
+
+/* adding background color to section boxes */
+
+section{
+    background-color: rgb(2, 2, 101);
+    border-style: solid;
+    border-color: #e1784e;
+}
+
+/* footer */
+
+footer{
+    padding: 50%;
+}
