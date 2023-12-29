@@ -64,6 +64,7 @@ a:active { color: #ab1697; } /* Even darker blue */
 nav{
     font-size: 200%;
     text-align: center;
+    color: #ab1697;
 }
 
 /* styling the description paragraph */
@@ -107,3 +108,4 @@ section{
 footer{
     padding: 50%;
 }
+
