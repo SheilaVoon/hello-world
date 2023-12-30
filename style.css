@@ -62,16 +62,23 @@ a:active { color: #ab1697; } /* Even darker blue */
 
 /* styling the nav */
 nav{
-    font-size: 200%;
+    font-size: 250%;
     text-align: center;
     color: #ab1697;
+}
+
+/* styling for main */
+main{
+  font-size: 250%;
+  text-align: center;
+  color: #ab1697;
 }
 
 /* styling the description paragraph */
 
 p{
     color: #e1784e;
-    font-size: 200%;
+    font-size: 175%;
     text-align: center;
 }
 
@@ -79,7 +86,7 @@ p{
 
 section h2{
     color:rgb(109, 72, 4);
-    font-size: 300%;
+    font-size: 150%;
     font-style: oblique;
     text-align: center;
     text-decoration: underline;
@@ -89,7 +96,7 @@ section h2{
 
 section ul{
     color:rgb(109, 72, 4);
-    font-size: 250%;
+    font-size: 100%;
     font-style: oblique;
     text-align: left;
     padding: 0% 35% 5% 35%;
