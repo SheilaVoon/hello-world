@@ -76,7 +76,7 @@ main{
 
 /* styling the description paragraph */
 
-p{
+main p{
     color: #e1784e;
     font-size: 175%;
     text-align: center;
@@ -115,4 +115,23 @@ section{
 footer{
     padding: 50%;
 }
+
+.puppy-img {
+  width: 5%;
+}
+
+.groupsofpuppies-img{
+  width: 5%;
+}
+
+header h3 {
+  font-size: 250%;
+  color: #ab1697;
+}
+
+header p {
+  font-size: 250%;
+  color: #ab1697;
+}
+
 

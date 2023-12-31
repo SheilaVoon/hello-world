@@ -85,3 +85,64 @@ function getResponse(){
 
   // the getAnswer function is invoked in line 23 of index.html
 
+
+
+  function rateMyPage() {
+    while (true) {
+      let rating = prompt("How many stars would you rate my page? (1-5)");
+  
+      // Check if the input is a valid number within the 1-5 range
+      if (!isNaN(rating) && rating >= 1 && rating <= 5) {
+        console.log(rating);
+  
+        for (let i = 1; i <= rating; i++) {
+          document.write("<img class='puppy-img' src='Cute pupper 1.png' alt='cute lil pupper' />");
+        }
+  
+        break; // Exit the loop if the input is valid
+      } else {
+        alert("Please enter a valid rating between 1 and 5.");
+      }
+    }
+  }
+
+    // the rateMyPage function is invoked in line 11 of index.html
+
+    function petsOwned() {
+      while (true) {
+        debugger;
+        let petNumber = prompt("How many pets do you currently have?");
+    
+        // Validate input using parseInt and check for valid conditions
+        let parsedPetNumber = parseInt(petNumber);
+        
+        if (!isNaN(parsedPetNumber)) {
+          if (parsedPetNumber === 0) {
+            alert("Aw, you don't have any pets right now? No worries, you can still enjoy some cute puppers!");
+            document.write("<img class='groupsofpuppies-img' src='puppygroup.png' alt='cute lil pupper' />");
+            break; // Show one image for 0 pets and exit the loop
+          } else if (parsedPetNumber === 1) {
+            console.log(petNumber);
+            for (let i = 1; i <= petNumber; i++) {
+              document.getElementById("output").textContent = "You have " + petNumber + " pet:";
+              document.write("<img class='puppy-img' src='Cute pupper 2.png' alt='cute lil pupper' />");
+            }
+            break;
+          } else if (parsedPetNumber >1){
+            console.log(petNumber);
+            for (let i = 1; i <= petNumber; i++) {
+              document.getElementById("output").textContent = "You have " + petNumber + " pets:";
+              document.write("<img class='puppy-img' src='Cute pupper 2.png' alt='cute lil pupper' />");
+            }
+            break;
+          }
+       } else {
+        alert("Please enter a valid number");
+      }
+      }
+    }
+
+       // the petsOwned function is invoked in line 13 of index.html
+
+  
+
